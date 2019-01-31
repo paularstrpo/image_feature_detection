@@ -50,6 +50,7 @@ extracted_labels_pp <- sapply(flist, ocr)
 #!################################################################################################################
 #!################################################################################################################
 #!manage output 
+
 histo_label_df <- data.frame(as.matrix(extracted_labels_pp))
 #histo_label_df <- data.frame(as.matrix(test))
 colnames(histo_label_df) <-  c('raw_ocr_dump')
